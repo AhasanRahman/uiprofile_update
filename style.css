@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  position: relative;
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+#fromcontainer{
+   background: #2d6599;
+   padding: 50px;
+   height: auto;
+   
+    
+}
+.showfrom{
+    opacity: 0;
+    display: none;
+}
+.showFrombtn, .submitbtn{
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background:blue;
+    
+}
+ 
+header {
+}
+.profile {
+  height: 170px;
+  width: 170px;
+  border: 3px solid white;
+  float: left;
+}
+.header_bio {
+  margin: 0 auto;
+  padding: 35px;
+  float: left;
+}
+.div-clear {
+  clear: both;
+}
+#my_activity {
+}
+.content {
+  margin-bottom: 40px;
+}
+.left {
+  width: 20%;
+  float: left;
+}
+.right {
+  width: 70%;
+  float: left;
+}
+.mysp_left {
+  float: left;
+  width: 45%;
+}
+.mysp_right {
+  float: right;
+  width: 45%;
+}
+.left1 {
+  width: 20%;
+  float: left;
+}
+.right1 {
+  width: 20%;
+  float: right;
+}
+.myinfo_left {
+  float: left;
+}
+.myinfo_right {
+  float: right;
+}
+.myinfo_center {
+  text-align: center;
+}
+.social {
+  display: flex;
+}
+a {
+  display: flex;
+  background: #ddd;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
+  left: 20%;
+}
+
+/* body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  font-size: large;
+} */
+
+#myform {
+  /* height: ;
+  width:;
+  align-items:;
+  */
+
+  /* text-align: center;
+  
+  width: 100%;
+  border-radius: 10px;
+  background-color: #15A3C7; */
+}
+.container {
+  text-align: center;
+  height: 100vh;
+  width: 80vw;
+  border-radius: 10px;
+  /* background-color: #15a3c7; */
+}
+input[type="text"] {
+  font-size: large;
+  width: 30%;
+  padding: 8px 10px;
+}
+.push-to-add {
+  padding: 5px;
+}
+
+#display_image {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+}
+
+#repeat1 {
+  /* padding:;
+    height:150;
+    width:300px;
+   position: absolute; */
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th {
+  border: 2px solid black;
+  height: 50px;
+  margin-top: 15px;
+} */
